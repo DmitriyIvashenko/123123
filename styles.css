@@ -1,0 +1,42 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #FFFFFF;
+    --accent-text-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+
+}
+body { color: #757575;
+background-color: #FFFFFF;
+}
+.list {list-style: none;
+}
+
+.stite-nav .link { color: var(--primary-text-color) }
+.stite-nav .link:hover, .stite-nav .link:focus { color: var(--accent-text-color)}
+.stite-div .link {color: #FFFFFF}
+.seaction .seaction-title {color: #212121}
+.footer-title .title {color: rgba(255, 255, 255, 0.6)}
+.button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid white;
+
+}
+.button.primary {
+    background-color: var(--accent-text-color);
+    color: var(--primary-white-color);
+    border-color: transparent;
+   
+}
+.button.secondary {
+    background-color: #F5F4FA);
+    color: #212121;
+
+    
+}   
+.main-link .link { color: #212121}
+  
